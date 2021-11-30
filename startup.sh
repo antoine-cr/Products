@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#docker pull docker.elastic.co/elasticsearch/elasticsearch:7.15.2
 #Création du fichier de données nettoyées
 python3 data.py
 
