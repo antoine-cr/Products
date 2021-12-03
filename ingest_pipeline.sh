@@ -1,3 +1,4 @@
+#Création du pipeline d'ingestion
 curl -X PUT localhost:9200/_ingest/pipeline/csv_product -H "Content-Type: application/json" -d '{
     "processors": [
     {
@@ -9,6 +10,7 @@ curl -X PUT localhost:9200/_ingest/pipeline/csv_product -H "Content-Type: applic
   ]
 }'
 
+#Création de l'index du document
 curl -X PUT "localhost:9200/products" \
 -H "Content-Type: application/json" \
 -d '{

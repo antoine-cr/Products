@@ -1,3 +1,5 @@
+#Création du job d'ingestion des données
+
 i=1
 sp="/-\|"
 echo -n ' '
