@@ -11,7 +11,7 @@ WORKDIR /api/
 RUN apt-get update && pip3 install -r requirements.txt
 
 # définit le port que l'on met à disposition
-EXPOSE 9200
+EXPOSE 8000
 
 # On exécute uvicorn ... au local
 CMD uvicorn api:api --host 0.0.0.0

@@ -1,5 +1,10 @@
 version: '2.2'
 services:
+  api :
+    image: 24241702/products
+    container_name : api_container
+    ports: 
+      - "8000:8000"
   es01:
     image: docker.elastic.co/elasticsearch/elasticsearch:7.15.2
     container_name: es01
